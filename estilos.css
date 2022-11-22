@@ -1,0 +1,163 @@
+body{
+    background: #ddd;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title{
+    position: absolute;
+    right: 7%;
+    color: white;
+    text-decoration: none;
+    font-size: 0.5em;
+}
+
+.iniciopag{
+    width: 90%;
+    background: rgba(40, 65, 120, 1);
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.tituloinicio{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    color: white;
+        display: flex;
+    justify-content: center;
+     align-items: center;
+    font-weight: bold;
+     font-size: 1.9em;
+}
+
+.cerrarsesion{
+    position: absolute;
+    right: 7%;
+    color: white;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 25px;
+
+}
+
+.logo{
+    padding: 10px;
+}
+
+.contenedor{
+    width: 90%;
+    background: white;
+    margin: 50px auto;
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.titulo{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background:rgba(40,65,120,1);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.9em;
+}
+
+.encabezado, .registro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.encabezado{
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+.registro{
+    font-weight: 1.0em;
+    padding: 10px;
+}
+
+.contenedor2{
+    width: 90%;
+    background: white;
+    margin: 50px auto;
+}
+
+.cont_titulo{
+
+    margin: 0;
+    padding: 10px;
+    background: rgba(40, 65, 120, 1);
+    color: white;
+    font-size: 1.9em;
+    text-align: center;
+}
+
+.cont_form{
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input_form{
+margin-right: 10px;
+margin-bottom: 10px;
+width: 25%;
+padding: 5px;
+}
+
+.boton{
+    background: rgba(40, 65, 120, 1);
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 15px auto;
+    width: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.label_form{
+    width: 20%;
+}
+
+.contenedor-edit{
+    grid-template-columns: repeat(5, 1fr);
+    width: 95%;
+    min-width: 900px;
+    grid-auto-rows: 40px;
+}
+
+.titulo_edit{
+    grid-column-start: 1;
+        grid-column-end: 6;
+}
+
+.contenedor-edit2{
+    grid-template-columns: repeat(4, 1fr);
+        width: 95%;
+        min-width: 900px;
+        grid-auto-rows: 40px;
+}
+
+.titulo_edit2 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.registro_input{
+    display: block;
+    padding-left: 10px;
+
+}
+
+.boton-actualizar{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
